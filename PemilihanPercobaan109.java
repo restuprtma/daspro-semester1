@@ -15,7 +15,6 @@ public class PemilihanPercobaan109 {
 
         String jenisBilangan = (angka % 2 == 0) ? "genap" : "ganjil";
         System.out.println("Angka " + angka + " adalah bilangan " + jenisBilangan);
-        System.out.println("Angka " + angka + " adalah bilangan " + jenisBilangan);
 
     }   
 }
