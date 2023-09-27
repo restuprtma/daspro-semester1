@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class PemilihanPercobaan309 {
 
     public static void main(String[] args) {
-        Scanner input09 = new Scanner(Stystem.in);
+        Scanner input09 = new Scanner(System.in);
         double angka1, angka2, hasil;
         char operator;
 
@@ -20,7 +20,7 @@ public class PemilihanPercobaan309 {
             case '+':
                 hasil = angka1 + angka2;
                 System.out.println(angka1 + " + " + angka2 + " = " + hasil);
-                break;
+                //break;
             case '-':
                 hasil = angka1 - angka2;
                 System.out.println(angka1 + " - " + angka2 + " = " + hasil);
